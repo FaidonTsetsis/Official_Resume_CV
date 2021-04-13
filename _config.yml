@@ -59,7 +59,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Turing Test, made in C
+        title: Turing Test made in C
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         #additional_links:
@@ -69,7 +69,7 @@ content:
           #- title:  Github page for project (eg. sproogen/modern-resume-theme)
          #   icon: fab fa-github
          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-         title: Website Development, made in JavaScript
+         title: Website Development made in JavaScript
         quote: >
           "not much, but its honest work!"
         #description: | # this will include new lines to allow paragraphs
