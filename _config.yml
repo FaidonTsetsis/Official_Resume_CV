@@ -52,27 +52,28 @@ github_username:  FaidonTsetsis
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/abandonedPC.jpg 
 about_content: | # this will include new lines to allow paragraphs
-  Description for my project!
+  Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Turing Test, made in C
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+         #   icon: fab fa-github
+         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+         #   icon: fab fa-github
+         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+         title: Website Development, made in JavaScript
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          "not much, but its honest work!"
+        #description: | # this will include new lines to allow paragraphs
+         # Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -89,19 +90,23 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Ionian University
+        sub_title: Department of Computer Science
+        caption: Date Range 2018-2022
+        #quote: >
+        #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          I am currently in my 6th semester.
+          
+          I have attend in a cryptography workshop that was hosted by the Ionian University for a weekend.
+          
+          I have participated in a hackathon event, hosted by Github and supported by the Ionian University 
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+    #  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+   #   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
