@@ -58,19 +58,17 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      #- layout: left
-       # title: Turing Test made in C
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        #additional_links:
-         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-         #   icon: fab fa-github
-         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-         #   icon: fab fa-github
-         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-         #title: Website Development made in JavaScript
-        quote: >
+      - layout: left
+      description: |
+        - Turing Test, made in C
+        
+        - WebSite Development, made in JavaScript, PhP, mySQL
+
+          
+        
+        
+        
+      quote: >
           "not much, but its honest work!"
         #description: | # this will include new lines to allow paragraphs
          # Description about the work on/with the project
@@ -85,7 +83,19 @@ content:
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+         
+          - Physical Languages:
+          English certification of proficiency - C2 ESB (International)
+
+          - Programming Languages:
+          I have worked with JavaScript, C, C++, Python, SQL, PhP
+          
+          - Tools:
+          Docker, Xampp, mySQL
+          
+          - Operating Systems:
+          Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure) 
+          
   - title: Education
     layout: list
     content:
@@ -96,11 +106,15 @@ content:
         #quote: >
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          I am currently in my 6th semester.
+          - Undergraduate student of computer science - University of Ionian Islands
           
-          I have attend in a cryptography workshop that was hosted by the Ionian University for a weekend.
+          - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
           
-          I have participated in a hackathon event, hosted by Github and supported by the Ionian University 
+          - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
+          
+          - Cryptography workshop hosted by Ionian University for a weekend
+
+ 
   #- title: A Little More About Me
   #  layout: text
   #  content: | # this will include new lines to allow paragraphs
