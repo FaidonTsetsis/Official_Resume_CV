@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Faidon Tsetsis
 title: Undergraduate Student
-email: tsetsisgr@gmail.com
+email: p18tset1@ionio.gr
 # email_title: Email (Email title override)
 # phone: 
 # phone_title: Phone (Phone title override)
@@ -55,15 +55,26 @@ about_content: | # this will include new lines to allow paragraphs
   Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
 
 content:
-  - title: Projects 
-    layout: list 
-    content:
+ # - title: Projects 
+  #  layout: list 
+  #  content:
     
-      description: |
-        - Turing Test, made in C
-        
-        - WebSite Development, made in JavaScript, PhP, mySQL
-
+  #    description: |
+  #      - Turing Test, made in C
+   #     
+    #    - WebSite Development, made in JavaScript, PhP, mySQL
+- title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Based on personal interests
+   
+       
+        description: | # this will include new lines to allow paragraphs
+         
+          - Turing Test, made in C
+          
+          - WebSite Development, made in JavaScript, PhP, mySQL
           
         
   - title: Experience
