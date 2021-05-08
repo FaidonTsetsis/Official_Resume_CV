@@ -58,8 +58,7 @@ content:
   - title: Projects 
     layout: list 
     content:
-      - layout: left
-        title: Some of work!
+    
       description: |
         - Turing Test, made in C
         
