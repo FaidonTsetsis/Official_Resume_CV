@@ -65,40 +65,36 @@ content:
 
           
         
-        
-        
-      quote: >
-          "not much, but its honest work!"
-        #description: | # this will include new lines to allow paragraphs
-         # Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Newbie Developer
+   
+       
         quote: >
-          Short description of the company (optional)
+          Based on my personal interests and university assignments
         description: | # this will include new lines to allow paragraphs
          
-          - Physical Languages:
+          - Physical Languages:<br>
           English certification of proficiency - C2 ESB (International)
 
-          - Programming Languages:
+
+          - Programming Languages:<br>
           I have worked with JavaScript, C, C++, Python, SQL, PhP
           
-          - Tools:
+          
+          - Tools:<br>
           Docker, Xampp, mySQL
           
-          - Operating Systems:
+          
+          - Operating Systems:<br>
           Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure) 
           
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Ionian University
         sub_title: Department of Computer Science
         caption: Date Range 2018-2022
