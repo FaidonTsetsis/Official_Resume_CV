@@ -58,14 +58,14 @@ content:
  #- title: Projects # Title for the section
   #  layout: list # Type of content section (list/text)
   #  content:
-      - layout: left
-        title: Project name
+    #  - layout: left
+   #     title: Project name
        
             
-        description: | # this will include new lines to allow paragraphs
-          - Turing Test, made in C
+     #   description: | # this will include new lines to allow paragraphs
+    #     - Turing Test, made in C
           
-          - WebSite Development, made in JavaScript, PhP, mySQL
+       #   - WebSite Development, made in JavaScript, PhP, mySQL
    
 
         
