@@ -55,27 +55,27 @@ about_content: | # this will include new lines to allow paragraphs
   Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
 
 content:
- # - title: Projects 
-  #  layout: list 
-  #  content:
-    
-  #    description: |
-  #      - Turing Test, made in C
-   #     
-    #    - WebSite Development, made in JavaScript, PhP, mySQL
-- title: Projects
-    layout: list
+ - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Based on personal interests
-   
-       
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            
         description: | # this will include new lines to allow paragraphs
-         
           - Turing Test, made in C
           
           - WebSite Development, made in JavaScript, PhP, mySQL
-          
+   
+
         
   - title: Experience
     layout: list
