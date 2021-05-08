@@ -55,9 +55,11 @@ about_content: | # this will include new lines to allow paragraphs
   Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects 
+    layout: list 
     content:
+      - layout: left
+        title: Some of work!
       description: |
         - Turing Test, made in C
         
@@ -70,10 +72,9 @@ content:
     content:
       - layout: left
         title: Newbie Developer
+        ub_title: Practising since 2018
    
        
-        quote: >
-          Based on my personal interests and university assignments
         description: | # this will include new lines to allow paragraphs
          
           - Physical Languages:<br>
