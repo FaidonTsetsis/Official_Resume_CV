@@ -50,7 +50,7 @@ github_username:  FaidonTsetsis
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/abandonedPC.jpg 
+about_profile_image: images/bioprog.jpeg 
 about_content: | # this will include new lines to allow paragraphs
   Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
 
