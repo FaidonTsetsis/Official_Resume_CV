@@ -2,54 +2,27 @@ version: 2
 
 name: Faidon Tsetsis
 title: Undergraduate Student
-email: p18tset1@ionio.gr
+email: fedon.tsetsis@gmail.com
 website: https://github.com/FaidonTsetsis
 
 darkmode: true
 
 github_username:  FaidonTsetsis
-
-about_profile_image: images/bioprog.jpeg 
+#about_profile_image: images/bioprog.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hey my name is Faidon, I am currently 21 years old and I am a junior developer in the field of computer science. My nationality is greek and I am studying at Ionian University, located in the island of Corfu. 
+  Hey my name is Faidon, I am 22 years old (18.03.2000) and I am a junior developer in the field of computer science. I have been studying for the past four years as a undergraduate student at Ionian University, and most of my experience is based on Website building.
 
 content:
-      
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Newbie Developer
-        ub_title: Practising since 2018
-   
-       
-        description: | # this will include new lines to allow paragraphs
-         
-          - Physical Languages:<br>
-          English certification of proficiency - C2 ESB (International)
-
-
-          - Programming Languages:<br>
-          I have worked with JavaScript, C, C++, Python, SQL, PhP
-          
-          
-          - Tools:<br>
-          Docker, Xampp, mySQL
-          
-          
-          - Operating Systems:<br>
-          Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure) 
-          
-  - title: Education
-    layout: list
-    content:
-      - layout: top-left
+- layout: top-left
         title: Ionian University
         sub_title: Department of Computer Science
         caption: Date Range 2018-2022
-        #quote: >
-        #  Short institution or course description (optional)
+      
+  - title: Education
+    layout: list
         description: | # this will include new lines to allow paragraphs
+         
+            
           - Undergraduate student of computer science - University of Ionian Islands
           
           - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
@@ -57,8 +30,30 @@ content:
           - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
           
           - Cryptography workshop hosted by Ionian University for a weekend
+          
+          - English certification of proficiency - C2 ESB (International)
+          
+  - title: Experience
+    layout: list
+    content:
+     
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Worked as an intern in a digital privacy policy making project called "tilderist"
 
-footer_show_references: true
+
+          - Created projects based on WordPress & Carrd.co 
+          
+          
+          - Familiarity with tools:<br>
+          Docker, Xampp, mySQL
+          
+          
+          - Operating Systems:<br>
+          Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure)
+
+footer_show_references: false
 
 sass:
   sass_dir: _sass
