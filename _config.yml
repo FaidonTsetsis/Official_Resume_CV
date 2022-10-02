@@ -91,6 +91,8 @@ content:
       #  quote: >
        #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
+         - Worked as an intern in a project of website privacy policy/legal documentation making called "tilderist"
+         
          - Created projects based on WordPress & Carrd.co
          
          - Familiarity with tools:<br>
