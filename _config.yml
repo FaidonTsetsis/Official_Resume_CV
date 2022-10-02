@@ -81,14 +81,14 @@ content:
 
 
   - title: Experience
-    layout: list
+    layout: text
     content:
-      - layout: right
+      #- layout: right
         #title: Company name
        # sub_title: Job title
       #  caption: Date Range (eg. November 2016 - present)
       #  link: Link to company (optional)
-       quote: >
+      # quote: >
        #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
          - Worked as an intern in a project of website privacy policy/legal documentation making called "tilderist"
