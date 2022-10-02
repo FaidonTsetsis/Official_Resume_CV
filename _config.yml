@@ -81,15 +81,12 @@ content:
 
 
   - title: Experience
-    layout: list
+   layout: list # Type of content section (list/text)
     content:
-      #- layout: right
-        #title: Company name
-       # sub_title: Job title
-      #  caption: Date Range (eg. November 2016 - present)
-      #  link: Link to company (optional)
-      # quote: >
-       #   Short description of the company (optional)
+      - layout: left
+        title: Ionian University
+        sub_title: Department of Computer Science
+        caption: Date Range 2018 - 2022
         description: | # this will include new lines to allow paragraphs
          - Worked as an intern in a project of website privacy policy/legal documentation making called "tilderist"
          
