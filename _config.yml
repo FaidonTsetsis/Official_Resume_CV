@@ -81,7 +81,7 @@ content:
 
 
   - title: Experience
-    layout: text
+    layout: list
     content:
       #- layout: right
         #title: Company name
