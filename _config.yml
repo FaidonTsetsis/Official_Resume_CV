@@ -14,6 +14,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 - layout: top-left
+  content:
         title: Ionian University
         sub_title: Department of Computer Science
         caption: Date Range 2018-2022
