@@ -12,7 +12,6 @@ github_username:  FaidonTsetsis
 about_content: | # this will include new lines to allow paragraphs
   Hey my name is Faidon, I am 22 years old (18.03.2000) and I am a junior developer in the field of computer science. I have been studying for the past four years as a undergraduate student at Ionian University, and most of my experience is based on Website building.
 
-content:
 - layout: top-left
   content:
         title: Ionian University
