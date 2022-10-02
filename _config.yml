@@ -53,7 +53,7 @@ content:
           - Operating Systems:<br>
           Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure)
 
-footer_show_references: false
+
 
 sass:
   sass_dir: _sass
