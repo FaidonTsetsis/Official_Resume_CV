@@ -59,18 +59,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
- - jekyll-seo-tag
+#plugins:
+ #- jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
