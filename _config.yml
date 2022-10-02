@@ -20,9 +20,8 @@ content:
       
   - title: Education
     layout: list
+    content:
         description: | # this will include new lines to allow paragraphs
-         
-            
           - Undergraduate student of computer science - University of Ionian Islands
           
           - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
@@ -36,19 +35,15 @@ content:
   - title: Experience
     layout: list
     content:
-     
         #quote: >
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           - Worked as an intern in a digital privacy policy making project called "tilderist"
-
-
-          - Created projects based on WordPress & Carrd.co 
           
+          - Created projects based on WordPress & Carrd.co 
           
           - Familiarity with tools:<br>
           Docker, Xampp, mySQL
-          
           
           - Operating Systems:<br>
           Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure)
