@@ -82,13 +82,13 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      #- layout: left
+       # title: Company name
+        #sub_title: Job title
+       ## caption: Date Range (eg. November 2016 - present)
+       # link: Link to company (optional)
+        #quote: >
+        #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
          - Worked as an intern in a digital privacy policy making project called "tilderist"
          
@@ -100,11 +100,11 @@ content:
          - Operating Systems:<br>
          Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure)
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+ # - title: A Little More About Me
+ #   layout: text
+  #  content: | # this will include new lines to allow paragraphs
+   #   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+   #   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
