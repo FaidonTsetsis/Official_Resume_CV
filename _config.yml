@@ -7,7 +7,7 @@ version: 2
 # Personal info
 name: Faidon Tsetsis
 title: Undergraduate Student
-email: fedon.tsetsis@gmail.com
+email: faidontsetsis@hotmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -46,8 +46,7 @@ github_username:  FaidonTsetsis
 # about_title: About Me (Use this to override about section title)
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hey my name is Faidon and I am a 22 years old (18.03.2000) undergraduate student at the department of Computer Science at Ionian University. I have participated in a couple of group projects and most of my experience is based on Website building.
-  
+  Hello my name is Faidon and I am a 24 years old (18.03.2000) undergraduate student at the department of Computer Science at Ionian University. I fancy to participate in projects that are based on tech content and I work along other colleagues of mine quite well. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. When it comes to my experience, thus far it's mainly about websites.
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -55,7 +54,7 @@ content:
       - layout: left
         title: Ionian University
         sub_title: Department of Computer Science
-        caption: Date Range 2018 - 2022
+       # caption: Date Range 2018 - 2022
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         #additional_links:
@@ -69,36 +68,39 @@ content:
         #  Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
          - Undergraduate student of computer science - University of Ionian Islands
+
+         - Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
                
          - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
          
          - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
          
-         - Cryptography workshop hosted by Ionian University for a weekend
-         
-         - English certification of proficiency C2 - ESB, English Speaking Board (International)
+         - Cryptography seminar hosted by Ionian University
+
+         - Physical languages: English certification of proficiency C2 - ESB, English Speaking Board (International)
 
 
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: 
+        title: Web Development Intern
         #sub_title: Job title
        ## caption: Date Range (eg. November 2016 - present)
        # link: Link to company (optional)
         #quote: >
         #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-         - Worked as an intern in a project of website privacy policy and legal documentation generator called "tilderist"
+         - Internship's Project "tilderist" - a generator developing website's privacy policy and legal documentation
          
-         - Created projects based on WordPress & Carrd.co
-         
-         - Familiarity with tools:<br>
-         Docker, Xampp, mySQL
+         - Website development based on WordPress & Carrd.co
 
-         - Operating Systems:<br>
-         Microsoft Windows (8.1/10), Linux Ubuntu, Unix (very basic structure)
+         - Web Scraping via ParseHub
+
+         - MySQL Database
+
+
+
 
  # - title: A Little More About Me
  #   layout: text
