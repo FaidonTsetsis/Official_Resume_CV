@@ -55,9 +55,9 @@ content:
         title: Bsc Computer Science
         sub_title: Ionian University
 
-        - layout: left
-        title: MSc Data Science and Machine Learning
-        sub_title: Hellenic Open University
+    #   - layout: left
+    #    title: MSc Data Science and Machine Learning
+     #   sub_title: Hellenic Open University
        # caption: Date Range 2018 - 2022
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
