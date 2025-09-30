@@ -17,10 +17,19 @@
         {%- include gtm_body.html -%}
       {%- endif -%}
 
-      {%- include about.html -%}
+      {%- comment -%}
+        Choose the correct resume data file based on page language
+      {%- endcomment -%}
+      {% if page.lang == "el" %}
+        {% assign resume_data = site.data.resume-el %}
+      {% else %}
+        {% assign resume_data = site.data.resume %}
+      {% endif %}
 
-      {%- if site.version == 2 -%}
-        {% for section in site.content %}
+      {%- include about.html resume=resume_data -%}
+
+      {%- if resume_data.version == 2 -%}
+        {% for section in resume_data.content %}
           <div class="container {{ section.layout }}-container">
             <h3>{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
