@@ -6,8 +6,8 @@ version: 2
 
 # Personal info
 name: Faidon Tsetsis
-title: Undergraduate Student
-email: faidontsetsis@hotmail.com
+title: Computer Scientist
+email: tsetsisgr@gmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -46,14 +46,18 @@ github_username:  FaidonTsetsis
 # about_title: About Me (Use this to override about section title)
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hello my name is Faidon and I am a 24 years old (18.03.2000) undergraduate student at the department of Computer Science at Ionian University. I fancy to participate in projects that are based on tech content and I work along other colleagues of mine quite well. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. When it comes to my experience, thus far it's mainly about websites.
+  Hello my name is Faidon Tsetsis _(pronunciation: Fed-on Che-chees)_ and I am a 25 years old (18.03.2000) masters student at the department of School of Sciences and Technology at Hellenic Open University. I fancy to participate in productive projects both in group or as a lonewolf. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. When it comes to my experience, thus far it's mainly around websites and data-driven fields like data science and machine learning.
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ionian University
-        sub_title: Department of Computer Science
+        title: Bsc Computer Science
+        sub_title: Ionian University
+
+        - layout: left
+        title: MSc Data Science and Machine Learning
+        sub_title: Hellenic Open University
        # caption: Date Range 2018 - 2022
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
@@ -67,15 +71,17 @@ content:
        # quote: >
         #  Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-         - Undergraduate student of computer science - University of Ionian Islands
+         - Studied computer science while currently doing my masters on data science and machine learning
 
-         - Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
+         - Bsc Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
                
          - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
          
          - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
          
          - Cryptography seminar hosted by Ionian University
+
+         - **Programming Languages: R, Python**
 
          - Physical languages: English certification of proficiency C2 - ESB, English Speaking Board (International)
 
@@ -98,6 +104,10 @@ content:
          - Web Scraping via ParseHub
 
          - MySQL Database
+
+         - Docker 
+
+         - Multiple mini-projects on machine learning for predictive data-driven decision making activity, both in R and Python langs
 
 
 
