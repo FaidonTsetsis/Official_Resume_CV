@@ -1,4 +1,10 @@
 ---
-# To change the default theme layout see: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: Resume - Faidon Tsetsis
+lang: en
 ---
+
+# {{ site.data.resume.name }}
+### {{ site.data.resume.title }}
+
+{{ site.data.resume.about_content }}
