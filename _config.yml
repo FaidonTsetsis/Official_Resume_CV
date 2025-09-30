@@ -1,151 +1,40 @@
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# Site settings
+baseurl: "/Official_Resume_CV"
+title: "Faidon Tsetsis Resume"
+description: "Online CV and Portfolio"
+repository: "FaidonTsetsis/Official_Resume_CV"
 
 # Content configuration version
 version: 2
 
-# Personal info
-name: Faidon Tsetsis
-title: Computer Scientist
-email: tsetsisgr@gmail.com
-# email_title: Email (Email title override)
-#phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-#website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
 # Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
-#twitter_username: jekyllrb
-github_username:  FaidonTsetsis
-#stackoverflow_username: "00000001"
-#facebook_username: jekyll
-#instagram_username: jekyll
-#linkedin_username: jekyll
-#youtube_username: jekyll
+# Social links (site-wide, also used in some sections)
+github_username: FaidonTsetsis
 
-
-# Additional icon links
-#additional_links:
-#- title: Link name
- # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
- # url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-#about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Hello my name is Faidon Tsetsis _(pronunciation: Fed-on Che-chees)_ and I am a 25 years old (18.03.2000) masters student at the department of School of Sciences and Technology at Hellenic Open University. I fancy to participate in productive projects both in group or as a lonewolf. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. When it comes to my experience, thus far it's mainly around websites and data-driven fields like data science and machine learning.
-content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Bsc Computer Science
-        sub_title: Ionian University
-
-      - layout: left
-        title: MSc Data Science and Machine Learning
-        sub_title: Hellenic Open University
-       # caption: Date Range 2018 - 2022
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-         #   icon: fab fa-github
-         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-       # quote: >
-        #  Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-         - Studied computer science while currently doing my masters on data science and machine learning
-
-         - Bsc Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
-               
-         - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
-         
-         - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
-         
-         - Cryptography seminar hosted by Ionian University
-
-         - **Programming Languages: R, Python**
-
-         - Physical languages: English certification of proficiency C2 - ESB, English Speaking Board (International)
-
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Web Develoment
-        sub_title: Internship
-
-      - layout: left
-        title: Data Science and Machine Learning
-        sub_title: mini-projects
-        #sub_title: Job title
-       ## caption: Date Range (eg. November 2016 - present)
-       # link: Link to company (optional)
-        #quote: >
-        #  Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-         - Internship's Project "tilderist" - a generator developing website's privacy policy and legal documentation
-         
-         - Website development based on WordPress & Carrd.co
-
-         - Web Scraping via ParseHub
-
-         - MySQL Database
-
-         - Docker 
-
-         - Multiple mini-projects on machine learning for predictive data-driven decision making activity, both in R and Python langs
-
-
-
-
- # - title: A Little More About Me
- #   layout: text
-  #  content: | # this will include new lines to allow paragraphs
-   #   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-   #   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+# remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
