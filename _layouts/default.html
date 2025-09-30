@@ -6,7 +6,10 @@
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
-
+<div style="text-align:right; margin: 10px 0;">
+  <button onclick="window.location.href='/'">English</button>
+  <button onclick="window.location.href='/el/'">Ελληνικά</button>
+</div>
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
 
