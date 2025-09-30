@@ -1,4 +1,10 @@
 ---
-# To change the default theme layout see: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: Βιογραφικό - Φαίδων Τσέτσης
+lang: el
 ---
+
+# {{ site.data.resume-el.name }}
+### {{ site.data.resume-el.title }}
+
+{{ site.data.resume-el.about_content }}
