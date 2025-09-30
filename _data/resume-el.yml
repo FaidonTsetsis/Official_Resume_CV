@@ -5,8 +5,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Φαίδων Τσέτσης
-title: Προγραμματιστής
+name: "Φαίδων Τσέτσης"
+title: "Προγραμματιστής"
 email: tsetsisgr@gmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
@@ -46,18 +46,18 @@ github_username:  FaidonTsetsis
 # about_title: About Me (Use this to override about section title)
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Γεια σας, ονομάζομαι Φαίδων Τσέτσισαντ και είμαι 25 ετών (18.03.2000) μεταπτυχιακός φοιτητής στο τμήμα της Σχολής Θετικών Επιστημών και Τεχνολογίας του Ελληνικού Ανοικτού Πανεπιστημίου. Μου αρέσει να συμμετέχω σε παραγωγικά έργα είτε σε ομάδες είτε ως μοναχικός λύκος. Μου αρέσουν επίσης τα εργαστήρια και τα σεμινάρια, καθώς έρχομαι σε επαφή με νέους τομείς και τεχνολογίες. Όσον αφορά την εμπειρία μου, μέχρι στιγμής αφορά κυρίως ιστοσελίδες και τομείς που βασίζονται σε δεδομένα, όπως η επιστήμη δεδομένων και η μηχανική μάθηση.
+  "Γεια σας, ονομάζομαι Φαίδων Τσέτσισαντ και είμαι 25 ετών (18.03.2000) μεταπτυχιακός φοιτητής στο τμήμα της Σχολής Θετικών Επιστημών και Τεχνολογίας του Ελληνικού Ανοικτού Πανεπιστημίου. Μου αρέσει να συμμετέχω σε παραγωγικά έργα είτε σε ομάδες είτε ως μοναχικός λύκος. Μου αρέσουν επίσης τα εργαστήρια και τα σεμινάρια, καθώς έρχομαι σε επαφή με νέους τομείς και τεχνολογίες. Όσον αφορά την εμπειρία μου, μέχρι στιγμής αφορά κυρίως ιστοσελίδες και τομείς που βασίζονται σε δεδομένα, όπως η επιστήμη δεδομένων και η μηχανική μάθηση."
 content:
-  - title: Μόρφωση # Title for the section
+  - title: "Μόρφωση" # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Προπτυχιακό - Πληροφορική
-        sub_title: Ιόνιο Πανεπιστήμιο
+        title: "Προπτυχιακό - Πληροφορική"
+        sub_title: "Ιόνιο Πανεπιστήμιο"
 
       - layout: left
-        title: Μεταπτυχιακό - Data Science and Machine Learning
-        sub_title: Hellenic Open University
+        title: "Μεταπτυχιακό - Data Science and Machine Learning"
+        sub_title: "Hellenic Open University"
        # caption: Date Range 2018 - 2022
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
@@ -71,48 +71,48 @@ content:
        # quote: >
         #  Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-         - Σπούδασα πληροφορική ενώ αυτή τη στιγμή κάνω μεταπτυχιακό στην επιστήμη δεδομένων και τη μηχανική μάθηση.
+         - "Σπούδασα πληροφορική ενώ αυτή τη στιγμή κάνω μεταπτυχιακό στην επιστήμη δεδομένων και τη μηχανική μάθηση."
 
-         - Προπτυχιακή διατριβή: Μια συστηματική ανασκόπηση των Συστημάτων Υποστήριξης Αποφάσεων για τη διάγνωση, την πρόγνωση και τη θεραπεία της νόσου του Πάρκινσον
+         - "Προπτυχιακή διατριβή: Μια συστηματική ανασκόπηση των Συστημάτων Υποστήριξης Αποφάσεων για τη διάγνωση, την πρόγνωση και τη θεραπεία της νόσου του Πάρκινσον"
                
-         - Συμμετέχων φοιτητής στο Python Workshop, που διοργανώθηκε από το Ιόνιο Πανεπιστήμιο σε διάστημα ενός εξαμήνου
+         - "Συμμετέχων φοιτητής στο Python Workshop, που διοργανώθηκε από το Ιόνιο Πανεπιστήμιο σε διάστημα ενός εξαμήνου"
          
-         - Συμμετοχή σε MLH-hackathon που διοργανώθηκε από το Github - υποδομές που υποστηρίζονται από το Ιόνιο Πανεπιστήμιο
+         - "Συμμετοχή σε MLH-hackathon που διοργανώθηκε από το Github - υποδομές που υποστηρίζονται από το Ιόνιο Πανεπιστήμιο"
          
-         - Σεμινάριο Κρυπτογραφίας που διοργανώνεται από το Ιόνιο Πανεπιστήμιο
+         - "Σεμινάριο Κρυπτογραφίας που διοργανώνεται από το Ιόνιο Πανεπιστήμιο"
 
-         - **Γλώσσες προγραμματισμόυ: R, Python**
+         - "**Γλώσσες προγραμματισμόυ: R, Python**"
 
-         - Φυσικές γλώσσες: English certification of proficiency C2 - ESB, English Speaking Board (International)
+         - "Φυσικές γλώσσες: English certification of proficiency C2 - ESB, English Speaking Board (International)"
 
 
-  - title: Εμπειρία
+  - title: "Εμπειρία"
     layout: list
     content:
       - layout: left
-        title: Ανάπτυξη Ιστοσελίδων 
-        sub_title: Πρακτική άσκηση
+        title: "Ανάπτυξη Ιστοσελίδων"
+        sub_title: "Πρακτική άσκηση"
 
       - layout: left
-        title: Επιστήμη Δεδομένων και Μηχανική Μάθηση
-        sub_title: μίνι-πρότζεκτ
+        title: "Επιστήμη Δεδομένων και Μηχανική Μάθηση"
+        sub_title: "μίνι-πρότζεκτ"
         #sub_title: Job title
        ## caption: Date Range (eg. November 2016 - present)
        # link: Link to company (optional)
         #quote: >
         #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-         - Έργο πρακτικής άσκησης "tilderist" - μια γεννήτρια που αναπτύσσει την πολιτική απορρήτου και τη νομική τεκμηρίωση για έναν ιστότοπο
+         - "Έργο πρακτικής άσκησης "tilderist" - μια γεννήτρια που αναπτύσσει την πολιτική απορρήτου και τη νομική τεκμηρίωση για έναν ιστότοπο"
          
-         - Ανάπτυξη ιστοσελίδας με βάση το WordPress & Carrd.co
+         - "Ανάπτυξη ιστοσελίδας με βάση το WordPress & Carrd.co"
 
-         - Web Scraping μέσω του λογισμικού ParseHub
+         - "Web Scraping μέσω του λογισμικού ParseHub"
 
-         - Βάση δεδομένων MySQL 
+         - "Βάση δεδομένων MySQL"
 
-         - Docker
+         - "Docker"
 
-         - Πολλαπλά μίνι-πρότζεκτ μηχανικής μάθησης για προγνωστική λήψη αποφάσεων με βάση δεδομένων, τόσο με την γλώσσα R όσο και με την Python
+         - "Πολλαπλά μίνι-πρότζεκτ μηχανικής μάθησης για προγνωστική λήψη αποφάσεων με βάση δεδομένων, τόσο με την γλώσσα R όσο και με την Python"
 
 
 
