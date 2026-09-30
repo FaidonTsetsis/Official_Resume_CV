@@ -45,11 +45,11 @@ github_username:  FaidonTsetsis
 # About Section
 # about_title: About Me (Use this to override about section title)
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Hello my name is Faidon Tsetsis (pronunciation: Fed-on Che-chees) and I am a 26 years old (18.03.2000) masters student at the department of School of Sciences and Technology at Hellenic Open University. 
-  I fancy to participate in productive projects both in group or as a lonewolf. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. 
+about_content: >
+  Hello my name is Faidon Tsetsis (pronunciation: Fed-on Che-chees) and I am a 26 years old (18.03.2000) masters student at the department of School of Sciences and Technology at Hellenic Open University.
+  I fancy to participate in productive projects both in group or as a lonewolf. I also enjoy workshops and seminars, as I am introduced to new fields and technologies.
   When it comes to my experience, thus far it's mainly around websites and data-driven fields like data science and machine learning.
-  
+
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -62,31 +62,31 @@ content:
         title: MSc Data Science and Machine Learning
         sub_title: Hellenic Open University
        # caption: Date Range 2018 - 2022
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-         #   icon: fab fa-github
-         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-       # quote: >
-        #  Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-         - Studied computer science while currently doing my masters on data science and machine learning
+         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+         #link_text: Link Text
+         #additional_links:
+         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+         #    icon: fab fa-github
+         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+         #  Short overview of the project (optional)
+        description: |
+          - Studied computer science while currently doing my masters on data science and machine learning
 
-         - Bsc Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
-               
-         - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
-         
-         - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
-         
-         - Cryptography seminar hosted by Ionian University
+          - Bsc Thesis: A systematic review of Decision Support Systems for diagnosis, prognosis and treatment for Parkinson's disease
+                
+          - Participator student of Python Workshop, hosted by Ionian University within a period of a semester
+          
+          - Participation in MLH-hackathon hosted by Github - infrastructural supported by Ionian University
+          
+          - Cryptography seminar hosted by Ionian University
 
-         - **Programming Languages: R, Python**
+          - **Programming Languages: R, Python**
 
-         - Physical languages: English certification of proficiency C2 - ESB, English Speaking Board (International)
+          - Physical languages: English certification of proficiency C2 - ESB, English Speaking Board (International)
 
 
   - title: Experience
@@ -99,23 +99,23 @@ content:
       - layout: left
         title: Data Science and Machine Learning
         sub_title: mini-projects
-        #sub_title: Job title
-       ## caption: Date Range (eg. November 2016 - present)
-       # link: Link to company (optional)
-        #quote: >
-        #  Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-         - Internship's Project "tilderist" - a generator developing website's privacy policy and legal documentation
-         
-         - Website development based on WordPress & Carrd.co
+         #sub_title: Job title
+        ## caption: Date Range (eg. November 2016 - present)
+        # link: Link to company (optional)
+         #quote: >
+         #  Short description of the company (optional)
+        description: |
+          - Internship's Project "tilderist" - a generator developing website's privacy policy and legal documentation
+          
+          - Website development based on WordPress & Carrd.co
 
-         - Web Scraping via ParseHub
+          - Web Scraping via ParseHub
 
-         - MySQL Database
+          - MySQL Database
 
-         - Docker 
+          - Docker 
 
-         - Multiple mini-projects on machine learning for predictive data-driven decision making activity, both in R and Python langs
+          - Multiple mini-projects on machine learning for predictive data-driven decision making activity, both in R and Python langs
 
 
 
