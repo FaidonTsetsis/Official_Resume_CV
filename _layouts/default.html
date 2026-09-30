@@ -20,6 +20,13 @@
       {%- comment -%}
         Choose the correct resume data file based on page language
       {%- endcomment -%}
+      <!-- DEBUG: Check if data is loading -->
+      <p style="background: yellow; color: red; padding: 10px; margin: 10px 0;">
+        DEBUG: site.data exists: {% if site.data %}YES{% else %}NO{% endif %} | 
+        site.data.resume exists: {% if site.data.resume %}YES{% else %}NO{% endif %} | 
+        page.lang: "{{ page.lang }}"
+      </p>
+      
       {% if page.lang == "el" %}
         {% assign resume_data = site.data.resume-el %}
       {% else %}
