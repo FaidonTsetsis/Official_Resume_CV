@@ -7,12 +7,7 @@
       </div>
     {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if resume.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      <!-- DEBUG: Checking if data is loaded -->
-      {% if resume.about_content %}
-        <p>{{ resume.about_content }}</p>
-      {% else %}
-        <p style="color: red; font-weight: bold;">DEBUG: about_content is empty or not found. Resume data: {{ resume | inspect }}</p>
-      {% endif %}
+      {{ resume.about_content | markdownify }}
     </div>
   </div>
 </div>
