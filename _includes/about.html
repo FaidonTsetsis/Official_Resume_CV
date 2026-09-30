@@ -7,10 +7,20 @@
       </div>
     {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if resume.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      <!-- DEBUG -->
-      <p style="color: red; background: yellow; padding: 10px;">DEBUG: resume object exists: {% if resume %}YES{% else %}NO{% endif %} | about_content value: "{{ resume.about_content }}"</p>
+      <!-- DEBUG FULL -->
+      <p style="color: red; background: yellow; padding: 10px; border: 2px solid red;">
+        DEBUG FULL RESUME OBJECT:<br>
+        resume var exists: {% if resume %}YES{% else %}NO{% endif %}<br>
+        resume.name: "{{ resume.name }}"<br>
+        resume.about_title: "{{ resume.about_title }}"<br>
+        resume.about_content: "{{ resume.about_content }}"<br>
+        Full resume object keys: {% for key in resume %}{{ key }}, {% endfor %}
+      </p>
+      
       {% if resume.about_content %}
         {{ resume.about_content | markdownify }}
+      {% else %}
+        <p style="color: blue;">about_content is empty or nil</p>
       {% endif %}
     </div>
   </div>
