@@ -16,10 +16,11 @@ github_username: FaidonTsetsis
 # Footer
 footer_show_references: true
 
-# Build settings
-# theme: modern-resume-theme
-# remote_theme: sproogen/modern-resume-theme
+# About Section - English
+about_title: "About Me"
+about_content: "Hello my name is Faidon Tsetsis (pronunciation: Fed-on Che-chees) and I am a 26 years old (18.03.2000) masters student at the department of School of Sciences and Technology at Hellenic Open University. I fancy to participate in productive projects both in group or as a lonewolf. I also enjoy workshops and seminars, as I am introduced to new fields and technologies. When it comes to my experience, thus far it's mainly around websites and data-driven fields like data science and machine learning."
 
+# Build settings
 sass:
   sass_dir: _sass
   style: compressed
